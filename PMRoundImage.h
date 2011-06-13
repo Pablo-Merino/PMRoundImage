@@ -10,6 +10,6 @@
 
 @interface PMRoundImage : UIImage 
 
-+(UIImageView*)roundImageCorners:(UIImageView*)image;
++(UIImageView*)roundImageCorners:(UIImageView*)image withQuantity:(int)quantity;
 
 @end

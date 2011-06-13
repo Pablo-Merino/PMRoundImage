@@ -10,8 +10,8 @@
 
 @implementation PMRoundImage
 
-+(UIImageView*)roundImageCorners:(UIImageView*)image {
-	image.layer.cornerRadius = 5.0;
++(UIImageView*)roundImageCorners:(UIImageView*)image withQuantity:(int)quantity {
+	image.layer.cornerRadius = quantity;
 	image.layer.masksToBounds = YES;
 	return image;
 }
