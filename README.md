@@ -6,4 +6,3 @@ The usage is simple:
 Where "imagetest" is an UIImageView and "2.2" is the round quantity.
 
 DON'T FORGET TO ADD QUARTZCORE.FRAMEWORK TO YOUR PROJECT!
-And you can edit the 
